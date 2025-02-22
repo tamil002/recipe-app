@@ -25,7 +25,7 @@ const About = () => {
                     <img
                         src='res2.jpg'
                         alt='Restaurent'
-                        className='hidden md:hidden md:ml-[-160px] md:mt-[40px]  ml-[-160px] rounded-3xl'
+                        className='hidden md:ml-[-160px] md:mt-[40px]  ml-[-160px] rounded-3xl'
                     />
                     <img
                         src='res3.jpg'
