@@ -12,7 +12,7 @@ const Header = () => {
             <nav className='hidden md:block font-serif'>
 
                 <ul className=" flex gap-10 text-xl justify-between">
-                    <li><a href='/'>Home</a></li>
+                    <li><a href='#home'>Home</a></li>
                     <li><a href='#food'>Foods</a></li>
                     <li><a href='#about'>About</a></li>
                     <li><a href='#contact'>Contact us</a></li>
@@ -23,7 +23,7 @@ const Header = () => {
             {toggleMenu && <nav className='block md:hidden  '>
 
                 <ul onClick={() => settoggleMenu(!toggleMenu)} className=" fixed w-1/2 h-10 top-12 text-xl -left-[-530px] font-serif ">
-                    <li className='w-full h-full text-center mb-1 mt-1 rounded-lg pt-2 bg-white'><a href='/'>Home</a></li>
+                    <li className='w-full h-full text-center mb-1 mt-1 rounded-lg pt-2 bg-white'><a href='#home'>Home</a></li>
                     <li className='w-full h-full text-center mb-1 mt-1 rounded-lg pt-2 bg-white'><a href='#food'>Foods</a></li>
                     <li className='w-full h-full text-center mb-1 mt-1 rounded-lg pt-1 bg-white'><a href='#about'>About</a></li>
                     <li className='w-full h-full text-center mb-1 mt-1 rounded-lg pt-2 bg-white'><a href='#contact'>Contact us</a></li>
